@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-1ln$@n7v=%hbp7gkgr4xl1r#_2fm4$#-2!u=30s!d4uyuwq=ub
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "healthring-backend.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
